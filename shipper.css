@@ -110,7 +110,7 @@
 }
 
 .box-a::-webkit-scrollbar-track { 
-	background-color: var(--scroll);
+	background-color: var(--scroll) !important;
 }
 
 .box-a::-webkit-scrollbar-thumb { 
@@ -164,7 +164,7 @@
 }
 
 .box-b::-webkit-scrollbar-track { 
-	background-color: var(--scroll);
+	background-color: var(--scroll) !important;
 }
 
 .box-b::-webkit-scrollbar-thumb { 
@@ -218,7 +218,7 @@
 }
 
 .box-c::-webkit-scrollbar-track { 
-	background-color: var(--scroll);
+	background-color: var(--scroll) !important;
 }
 
 .box-c::-webkit-scrollbar-thumb { 
@@ -272,7 +272,7 @@
 }
 
 .box-d::-webkit-scrollbar-track { 
-	background-color: var(--scroll);
+	background-color: var(--scroll) !important;
 }
 
 .box-d::-webkit-scrollbar-thumb { 
@@ -326,7 +326,7 @@
 }
 
 .box-e::-webkit-scrollbar-track { 
-	background-color: var(--scroll);
+	background-color: var(--scroll) !important;
 }
 
 .box-e::-webkit-scrollbar-thumb { 
@@ -380,7 +380,7 @@
 }
 
 .box-f::-webkit-scrollbar-track { 
-	background-color: var(--scroll);
+	background-color: var(--scroll) !important;
 }
 
 .box-f::-webkit-scrollbar-thumb { 
