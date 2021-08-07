@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i|Karla:400,400i,700,700i|Vesper+Libre:900');
+
+:root {
+	--background1: url(https://i.postimg.cc/Bnrs4WVd/smoke-skull.png);
+	--background2: #0f0f0f;
+	--background3: #f0f0f0;
+	--clip: polygon(75% 0%, 100% 74%, 75% 100%, 0% 100%, 0 56%, 0% 0%);
+
+	--phoenix: #AB505E;
+	--evelyn: #607873;
+	--xiulan: #CFC88F;
+	--friday: #D9A071;
+	--miki: #A5B090;
+}
+
+.shipper {
+	width: 400px;
+	background-image: var(--background1);
+	background-color: var(--background2);
+	background-attachment: fixed;
+	padding: 45px 50px;
+	letter-spacing: 0px;
+}
+
+.chara {
+	width: 400px;
+	height: 150px;
+	background-color: var(--background3);
+	overlfow: hidden;
+	position: relative;
+	margin: 5px 0px;
+}
+
+.chara img {
+	width: 150px;
+	height: 150px;
+	clip-path: var(--clip);
+	filter: grayscale(1);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.chara .bg {
+	width: 165px;
+	height: 150px;
+	background-color: var(--background2);
+	clip-path: var(--clip);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.chara .cp {
+	width: 50px;
+	height: 50px;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 1px #0f0f0f;
+	color: var(--background3);
+	position: absolute;
+	top: 90px;
+	left: 100px;
+}
+
+.box-a {
+	width: 210px;
+	height: 130px;
+	border-color: var(--background3);
+	border-style: solid;
+	border-width: 10px 5px 10px 10px;
+	padding: 0px 5px 0px 0px;
+	overflow: auto;
+	font-family: muli;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: justify;
+	text-transform: lowercase;
+	color: var(--background2);
+	position: absolute;
+	top: 0px;
+	left: 170px;
+}
+
+.box-a h1 {
+	font-family: vesper libre;
+	fonr-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: lowercase;
+	color: var(--background2);
+	margin: 0px;
+}
+
+.box-a h2 {
+	font-family: karla;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--background2);
+	margin: 0px 0px 10px;
+}
+
+.box-a::-webkit-scrollbar { 
+	width: 5px;
+	height: 5px;
+}
+
+.box-a::-webkit-scrollbar-track { 
+	background-color: var(--background3);
+}
+
+.box-a::-webkit-scrollbar-thumb { 
+	background-color: var(--background2);
+}
+
+.box-b {
+	width: 210px;
+	height: 130px;
+	border-color: var(--background3);
+	border-style: solid;
+	border-width: 10px 5px 10px 10px;
+	padding: 0px 5px 0px 0px;
+	overflow: auto;
+	font-family: muli;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: justify;
+	text-transform: lowercase;
+	color: var(--phoenix);
+	position: absolute;
+	top: 0px;
+	left: 170px;
+}
+
+.box-b h1 {
+	font-family: vesper libre;
+	fonr-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: lowercase;
+	color: var(--phoenix);
+	margin: 0px;
+}
+
+.box-b h2 {
+	font-family: karla;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--phoenix);
+	margin: 0px 0px 10px;
+}
+
+.box-b::-webkit-scrollbar { 
+	width: 5px;
+	height: 5px;
+}
+
+.box-b::-webkit-scrollbar-track { 
+	background-color: var(--background3);
+}
+
+.box-b::-webkit-scrollbar-thumb { 
+	background-color: var(--phoenix);
+}
+
+.box-c {
+	width: 210px;
+	height: 130px;
+	border-color: var(--background3);
+	border-style: solid;
+	border-width: 10px 5px 10px 10px;
+	padding: 0px 5px 0px 0px;
+	overflow: auto;
+	font-family: muli;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: justify;
+	text-transform: lowercase;
+	color: var(--evelyn);
+	position: absolute;
+	top: 0px;
+	left: 170px;
+}
+
+.box-c h1 {
+	font-family: vesper libre;
+	fonr-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: lowercase;
+	color: var(--evelyn);
+	margin: 0px;
+}
+
+.box-c h2 {
+	font-family: karla;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--evelyn);
+	margin: 0px 0px 10px;
+}
+
+.box-c::-webkit-scrollbar { 
+	width: 5px;
+	height: 5px;
+}
+
+.box-c::-webkit-scrollbar-track { 
+	background-color: var(--background3);
+}
+
+.box-c::-webkit-scrollbar-thumb { 
+	background-color: var(--evelyn);
+}
+
+.box-d {
+	width: 210px;
+	height: 130px;
+	border-color: var(--background3);
+	border-style: solid;
+	border-width: 10px 5px 10px 10px;
+	padding: 0px 5px 0px 0px;
+	overflow: auto;
+	font-family: muli;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: justify;
+	text-transform: lowercase;
+	color: var(--xiulan);
+	position: absolute;
+	top: 0px;
+	left: 170px;
+}
+
+.box-d h1 {
+	font-family: vesper libre;
+	fonr-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: lowercase;
+	color: var(--xiulan);
+	margin: 0px;
+}
+
+.box-d h2 {
+	font-family: karla;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--xiulan);
+	margin: 0px 0px 10px;
+}
+
+.box-d::-webkit-scrollbar { 
+	width: 5px;
+	height: 5px;
+}
+
+.box-d::-webkit-scrollbar-track { 
+	background-color: var(--background3);
+}
+
+.box-d::-webkit-scrollbar-thumb { 
+	background-color: var(--xiulan);
+}
+
+.box-e {
+	width: 210px;
+	height: 130px;
+	border-color: var(--background3);
+	border-style: solid;
+	border-width: 10px 5px 10px 10px;
+	padding: 0px 5px 0px 0px;
+	overflow: auto;
+	font-family: muli;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: justify;
+	text-transform: lowercase;
+	color: var(--friday);
+	position: absolute;
+	top: 0px;
+	left: 170px;
+}
+
+.box-e h1 {
+	font-family: vesper libre;
+	fonr-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: lowercase;
+	color: var(--friday);
+	margin: 0px;
+}
+
+.box-e h2 {
+	font-family: karla;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--friday);
+	margin: 0px 0px 10px;
+}
+
+.box-e::-webkit-scrollbar { 
+	width: 5px;
+	height: 5px;
+}
+
+.box-e::-webkit-scrollbar-track { 
+	background-color: var(--background3);
+}
+
+.box-e::-webkit-scrollbar-thumb { 
+	background-color: var(--friday);
+}
+
+.box-f {
+	width: 210px;
+	height: 130px;
+	border-color: var(--background3);
+	border-style: solid;
+	border-width: 10px 5px 10px 10px;
+	padding: 0px 5px 0px 0px;
+	overflow: auto;
+	font-family: muli;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: justify;
+	text-transform: lowercase;
+	color: var(--miki);
+	position: absolute;
+	top: 0px;
+	left: 170px;
+}
+
+.box-f h1 {
+	font-family: vesper libre;
+	fonr-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: lowercase;
+	color: var(--miki);
+	margin: 0px;
+}
+
+.box-f h2 {
+	font-family: karla;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: var(--miki);
+	margin: 0px 0px 10px;
+}
+
+.box-f::-webkit-scrollbar { 
+	width: 5px;
+	height: 5px;
+}
+
+.box-f::-webkit-scrollbar-track { 
+	background-color: var(--background3);
+}
+
+.box-f::-webkit-scrollbar-thumb { 
+	background-color: var(--miki);
+}
