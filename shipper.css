@@ -5,7 +5,7 @@
 	--background2: #0f0f0f;
 	--background3: #f0f0f0;
 	--clip: polygon(75% 0%, 100% 74%, 75% 100%, 0% 100%, 0 56%, 0% 0%);
-
+	--scroll: #f0f0f0;
 	--phoenix: #AB505E;
 	--evelyn: #607873;
 	--xiulan: #CFC88F;
@@ -110,7 +110,7 @@
 }
 
 .box-a::-webkit-scrollbar-track { 
-	background-color: var(--background3);
+	background-color: var(--scroll);
 }
 
 .box-a::-webkit-scrollbar-thumb { 
@@ -131,7 +131,7 @@
 	line-height: 16px;
 	text-align: justify;
 	text-transform: lowercase;
-	color: var(--phoenix);
+	color: var(--background2);
 	position: absolute;
 	top: 0px;
 	left: 170px;
@@ -154,7 +154,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--phoenix);
+	color: var(--background2);
 	margin: 0px 0px 10px;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .box-b::-webkit-scrollbar-track { 
-	background-color: var(--background3);
+	background-color: var(--scroll);
 }
 
 .box-b::-webkit-scrollbar-thumb { 
@@ -185,7 +185,7 @@
 	line-height: 16px;
 	text-align: justify;
 	text-transform: lowercase;
-	color: var(--evelyn);
+	color: var(--background2);
 	position: absolute;
 	top: 0px;
 	left: 170px;
@@ -208,7 +208,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--evelyn);
+	color: var(--background2);
 	margin: 0px 0px 10px;
 }
 
@@ -218,7 +218,7 @@
 }
 
 .box-c::-webkit-scrollbar-track { 
-	background-color: var(--background3);
+	background-color: var(--scroll);
 }
 
 .box-c::-webkit-scrollbar-thumb { 
@@ -239,7 +239,7 @@
 	line-height: 16px;
 	text-align: justify;
 	text-transform: lowercase;
-	color: var(--xiulan);
+	color: var(--background2);
 	position: absolute;
 	top: 0px;
 	left: 170px;
@@ -262,7 +262,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--xiulan);
+	color: var(--background2);
 	margin: 0px 0px 10px;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .box-d::-webkit-scrollbar-track { 
-	background-color: var(--background3);
+	background-color: var(--scroll);
 }
 
 .box-d::-webkit-scrollbar-thumb { 
@@ -293,7 +293,7 @@
 	line-height: 16px;
 	text-align: justify;
 	text-transform: lowercase;
-	color: var(--friday);
+	color: var(--background2);
 	position: absolute;
 	top: 0px;
 	left: 170px;
@@ -316,7 +316,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--friday);
+	color: var(--background2);
 	margin: 0px 0px 10px;
 }
 
@@ -326,7 +326,7 @@
 }
 
 .box-e::-webkit-scrollbar-track { 
-	background-color: var(--background3);
+	background-color: var(--scroll);
 }
 
 .box-e::-webkit-scrollbar-thumb { 
@@ -347,7 +347,7 @@
 	line-height: 16px;
 	text-align: justify;
 	text-transform: lowercase;
-	color: var(--miki);
+	color: var(--background2);
 	position: absolute;
 	top: 0px;
 	left: 170px;
@@ -370,7 +370,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: var(--miki);
+	color: var(--background2);
 	margin: 0px 0px 10px;
 }
 
@@ -380,7 +380,7 @@
 }
 
 .box-f::-webkit-scrollbar-track { 
-	background-color: var(--background3);
+	background-color: var(--scroll);
 }
 
 .box-f::-webkit-scrollbar-thumb { 
