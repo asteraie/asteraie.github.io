@@ -94,19 +94,19 @@
 	margin: 0px -25px 25px;
 }
 
-.plot {
+.timeline {
 	width: 320px;
 	height: 50px;
 	margin: 0px 10px 10px;
 }
 
-.plot date {
+.mineline date {
 	width: 100px;
 	height: 50px;
 	float: left;
 }
 
-.plot day {
+.timeline year {
 	padding: 5px 0px 4px;
 	font-family: montserrat;
 	font-size: 26px;
@@ -115,7 +115,7 @@
 	text-align: center;
 }
 
-.plot month {
+.timeline month {
 	width: 100px;
 	padding: 0px 0px 5px;
 	font-family: montserrat;
@@ -125,17 +125,18 @@
 	text-transform: uppercase;
 }
 
-.plot detail {
+.timeline detail {
 	width: 200px;
 	height: 50px;
 	font-family: montserrat;
 	font-size: 10px;
 	line-height: 12px;
 	text-align: justify;
+	text-transform: lowercase;
 	float: right;
 }
 
-.plot a {
+.timeline a {
 	font-family: montserrat;
 	font-size: 8px;
 	line-height: 10px;
