@@ -103,7 +103,6 @@
 .timeline .date {
 	width: 100px;
 	height: 100px;
-	mrgin-right: 20px;
 	float: left;
 }
 
@@ -129,6 +128,15 @@
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0px;
+}
+
+.timeline .cp {
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	text-align: center;
+	margin: 40px;
+	float: left;
 }
 
 .timeline .detail {
