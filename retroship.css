@@ -19,7 +19,7 @@
 .retro h1 {
 	padding-bottom: 4px;
 	font-family: vesper libre;
-	font-size: 36px;
+	font-size: 46px;
 	font-weight: 900;
 	line-height: 36px;
 	text-align: center;
@@ -73,7 +73,7 @@
 	height: 26px;
 	padding-bottom: 4px;
 	font-family: vesper libre;
-	font-size: 26px;
+	font-size: 30px;
 	font-weight: 900;
 	line-height: 26px;
 	text-align: left;
@@ -89,7 +89,7 @@
 	font-family: karla;
 	font-size: 10px;
 	line-height: 10px;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #c9747a;
