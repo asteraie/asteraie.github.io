@@ -35,9 +35,10 @@
 }
 
 .r_image img {
-	width: 128px;
-	height: 128px;
+	width: 108px;
+	height: 108px;
 	filter: grayscale(1);
+	margin: 10px;
 }
 
 .r_name {
