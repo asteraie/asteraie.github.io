@@ -24,7 +24,7 @@
 	line-height: 36px;
 	text-align: center;
 	text-transform: lowercase;
-	color: #fa46ff;
+	color: #b05574;
 }
 
 .retro h2 {
@@ -35,12 +35,12 @@
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: #fb9c5a;
+	color: #c9747a;
 }
 
 .retro b {
 	font-weight: 700;
-	color: #ae3cd7;
+	color: #e29380;
 }
 
 .r_chara {
@@ -48,7 +48,7 @@
 	height: 130px;
 	background-color: #0f0f0f;
 	box-size: border-box;
-	outline: 1px solid #00cdff;
+	outline: 1px solid #e6b2a0;
 	padding: 9px;
 	margin-top: 15px;
 }
@@ -56,7 +56,7 @@
 .r_image {
 	width: 128px;
 	height: 128px;
-	border: 1px solid #74ffde;
+	border: 1px solid #ead1bf;
 	margin-right: 10px;
 	float: left;
 }
@@ -78,7 +78,7 @@
 	line-height: 26px;
 	text-align: left;
 	text-transform: lowercase;
-	color: #fa46ff;
+	color: #b05574;
 	float: left;
 }
 
@@ -92,7 +92,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: #fb9c5a;
+	color: #c9747a;
 	float: left;
 }
 
@@ -106,5 +106,5 @@
 
 .r_ship b {
 	font-weight: 700;
-	color: #ae3cd7;
+	color: #e29380;
 }
