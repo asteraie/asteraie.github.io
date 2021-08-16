@@ -142,9 +142,9 @@
 }
 
 .timeline .detail {
-	width: 220px;
+	width: 215px;
 	height: 100px;
-	padding: 0px 5px;
+	padding: 0px 5px 0px 10px;
 	overflow: auto;
 	font-family: montserrat;
 	font-size: 12px;
