@@ -114,6 +114,7 @@
 	line-height: 26px;
 	font-weight: 700;
 	text-align: center;
+	margin: 0px;
 }
 
 .timeline month {
@@ -126,6 +127,7 @@
 	line-height: 10px;
 	text-align: center;
 	text-transform: uppercase;
+	margin: 0px;
 }
 
 .timeline detail {
