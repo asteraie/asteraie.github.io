@@ -97,10 +97,10 @@
 .timeline {
 	width: 320px;
 	height: 50px;
-	margin: 0px 10px 10px;
+	margin: 0px 10px 35px;
 }
 
-.mineline date {
+.timeline date {
 	width: 100px;
 	height: 50px;
 	float: left;
