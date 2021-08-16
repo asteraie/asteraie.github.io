@@ -29,7 +29,7 @@
 .r_image {
 	width: 128px;
 	height: 128px;
-	border: 1px solid #b281ff;
+	border: 1px solid #74ffde;
 	margin-right: 10px;
 	float: left;
 }
@@ -78,5 +78,5 @@
 
 .r_ship b {
 	font-weight: 700;
-	color: #6599ff;
+	color: #ae3cd7;
 }
