@@ -134,7 +134,7 @@
 	display: block;
 	width: 20px;
 	height: 20px;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 20px;
 	text-align: center;
 	margin: 40px 0px;
@@ -154,17 +154,17 @@
 	float: right;
 }
 
-.timeline detail::-webkit-scrollbar {
+.timeline .detail::-webkit-scrollbar {
 	width: 5px;
 	height: 5px;
 }
 
-.timeline detail::-webkit-scrollbar-track {
+.timeline .detail::-webkit-scrollbar-track {
 	background-color: #0f0f0f;
 }
 
-.timeline detail::-webkit-scrollbar-thumb {
-background-color: #ccc;
+.timeline .detail::-webkit-scrollbar-thumb {
+	background-color: #ccc;
 }
 
 .who {
