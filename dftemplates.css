@@ -134,16 +134,17 @@
 	display: block;
 	width: 20px;
 	height: 20px;
-	font-size: 20px;
+	font-size: 14px;
+	line-height: 20px;
 	text-align: center;
 	margin: 40px 0px;
 	float: left;
 }
 
 .timeline .detail {
-	width: 225px;
+	width: 220px;
 	height: 100px;
-	padding-right: 5px;
+	padding: 0px 5px;
 	overflow: auto;
 	font-family: montserrat;
 	font-size: 12px;
