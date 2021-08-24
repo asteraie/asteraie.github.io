@@ -238,6 +238,7 @@
 .chara-a img, .chara-b img {
 	width: 140px;
 	height: 140px;
+	filter: grayscale(1);
 }
 
 #c_senshi .chara-a, c_senshi .chara-b  {
