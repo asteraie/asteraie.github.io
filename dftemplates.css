@@ -241,7 +241,7 @@
 	filter: grayscale(1);
 }
 
-#c_senshi .chara-a, c_senshi .chara-b  {
+#c_senshi .chara-a, #c_senshi .chara-b  {
 	border-color: #ae9bbe;
 }
 
