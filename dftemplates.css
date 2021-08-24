@@ -201,3 +201,92 @@
 	text-transform: lowercase;
 	margin: 0px;
 }
+
+.st2 {
+	width: 450px;
+	background-color: #0f0f0f;
+	padding: 25px 25px 15px;
+	font-family: montserrat;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: justify;
+	text-transform: none;
+	letter-spacing: 0px;
+	color: #ccc;
+	margin: 30px 0px;
+}
+
+.st2 h1 {
+	font-family: montserrat;
+	font-weight: 700;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.st2 h2 {
+	font-family: montserrat;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: lowercase;
+	margin: 10px 0px 40px;
+}
+
+.chara-a {
+	width: 140px;
+	height: 190px;
+	border-color: #0f0f0f;
+	border-style: solid;
+	border-width: 0px 0px 10px 0px;
+	margin: 0px 10px 10px 0px;
+	float: left;
+}
+
+.chara-a img {
+	width: 140px;
+	height: 140px;
+}
+
+.chara-b {
+	width: 140px;
+	height: 190px;
+	border-color: #0f0f0f;
+	border-style: solid;
+	border-width: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
+	float: left;
+}
+
+.chara-b img {
+	width: 140px;
+	height: 140px;
+}
+
+#c_senshi .chara-a,#c_senshi .chara-b  {
+	border-color: #ae9bbe;
+}
+
+#c_templar .chara-a, #c_templar .chara-b {
+	border-color: #aaadb5;
+}
+
+#civilian .chara-a, #civilian .chara-b {
+	border-color: #a1cada;
+}
+
+#d_buster .chara-a, #d_buster .chara-b {
+	border-color: #d45946;
+}
+
+#p_senshi .chara-a, #p_senshi .chara-b {
+	border-color: #f3a1a1;
+}
+
+#p_templar .chara-a, #p_templar .chara-b {
+	border-color: #ce95b5;
+}
+
+#youma .chara-a, #youma .chara-b {
+	border-color: #f2c76b;
+}
