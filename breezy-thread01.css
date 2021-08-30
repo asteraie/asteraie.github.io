@@ -81,8 +81,9 @@
 	border-style: style;
 	border-width: 1px;
 	padding: 40px;
+	letter-spacing: 0px;
 	text-align: justify;
-	text-transform: uppercase;
+	text-transform: lowerercase;
 }
 
 .breezy b {
