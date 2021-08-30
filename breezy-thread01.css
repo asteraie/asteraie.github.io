@@ -21,7 +21,7 @@
 	marginL 30px auto;
 }
 
-.breezy, .b_top {
+.breezy .b_top {
 	background-color: var(--bg3);
 	border-color: var(--bg4);
 	border-style: solid;
@@ -55,6 +55,7 @@
 	align-items: center;
 	align-content: flex-start;
 	font-size: 0px;
+	margin: 20px 0px 0px;
 }
 
 .breezy, .b_tags a {
@@ -72,7 +73,7 @@
 	margin: 0px 5px 5px 0px;
 }
 
-.breezy, .b_post {
+.breezy .b_post {
 	border-color: var(--bg4);
 	border-style: style;
 	border-width: 1px;
