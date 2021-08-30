@@ -57,6 +57,7 @@
 	align-items: center;
 	align-content: flex-start;
 	font-size: 0px;
+	text-transforn: uppercase!important;
 	margin: 20px 0px 0px;
 }
 
@@ -77,6 +78,7 @@
 
 .breezy .b_post {
 	width: 100%;
+	box-sizing: border-box;
 	border-color: var(--bg4);
 	border-style: style;
 	border-width: 1px;
