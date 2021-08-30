@@ -28,6 +28,7 @@
 	border-style: solid;
 	border-width: 1px;
 	padding: 20px;
+	text-align: left;
 	text-transforn: uppercase!important;
 	margin-bottom: -1px;
 }
@@ -81,7 +82,7 @@
 	width: 100%;
 	box-sizing: border-box;
 	border-color: var(--bg4);
-	border-style: style;
+	border-style: solid;
 	border-width: 1px;
 	padding: 40px;
 	letter-spacing: 0px;
