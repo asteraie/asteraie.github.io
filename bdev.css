@@ -173,8 +173,8 @@
 }
 
 .head {
-	width: 100%;
-	background-image: linear-gradient(to top, transparent 50%, rgba(var(--accent1),0.5) 50% );
+	width: 378px;
+	background-image: linear-gradient(to top, rgba(var(--accent1),0.5) 50%, transparent 50% );
 	font-family: var(--fancy);
 	font-size: 30px;
 	font-weight: 400;
