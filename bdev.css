@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.bdev {
+	--mainbg: url(https://i.postimg.cc/dV8syvWp/dev-baellona.png);
+	--altbg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23aaaaaa' fill-opacity='0.42'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+
+	--bgcolor: 231, 214, 212;
+	--black: 1, 1, 1;
+	--white: 204, 204, 204;
+	--clear: 0, 0, 0, 0;
+
+	--main: poppins, sans-serif;
+	--alt: mulish, sans-serif;
+	--button: ibm plex mono, mono space;
+
+	--accent1: 175, 149, 169;
+	--accent2: 112, 123, 141;
+
+	--gradient: linear-gradient(to right, rgba(245, 198, 182, 1) 0%, rgba(175, 149, 169, 1) 100%);
+
+	width: 600px;
+	height: 500px;
+	background: var(--mainbg);
+	margin: auto;
+	position: relative;
+}
+
+.bdev-a {
+	width: 198px;
+	height: 183px;
+	background-color: rgba(var(--bgcolor), 1);
+	border-color: rgba(var(--black), 1);
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+
+.bdev-b {
+	width: 248px;
+	height: 198px;
+	background-color: rgba(var(--bgcolor), 1);
+	border-color: rgba(var(--black), 1);
+	border-style: solid;
+	border-width: 1px;
+	position: absolute;
+	top: 250px;
+	left: 100px;
+}
+
+.bdev-c {
+	display: flex;
+	justify-content: space-between;
+	border-color: rgba(var(--black), 1);
+	border-style: solid;
+	border-width: 0 0 1px;
+	padding: 10px;
+	font-family: var(--button);
+	font-size: 10px;
+	font-weight: 600;
+	color: rgba(var(--accent1), 1);
+}
+
+.bdev-c > div {
+	display: flex;
+}
+
+.bdev-d {
+	height: 152px;
+	background-image: var(--altbg);
+	box-sizing: border-box;
+	border-color: rgba(var(--clear));
+	border-style: solid;
+	border-width: 10px;
+	overflow: auto;
+	text-align: justify;	
+}
+
+.bdev-d > div {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.bdev-d::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.bdev-e {
+	height: 166px;
+	background-image: var(--altbg);
+	box-sizing: border-box;
+	border-color: rgba(var(--clear));
+	border-style: solid;
+	border-width: 10px;
+	overflow: auto;
+	text-align: justify;	
+}
+
+.bdev-e > div {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.bdev-e::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.ques {
+	font-family: var(--alt);
+	font-size: 10px;
+	font-weight: 900;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: rgba(var(--accent2), 1);
+	margin: 0 10px 0 0;
+}
+
+.answ {
+	font-family: var(--main);
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-transform: lowercase;
+	color: rgba(var(--black), 1);
+}
