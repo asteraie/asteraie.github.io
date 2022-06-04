@@ -202,12 +202,12 @@
 	border-width: 1px;
 	padding: 10px;
 	font-family: var(--main);
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 0;
-	line-height: 14px;
+	line-height: 16px;
 	text-align: justify;
 	text-transform: lowercase;
 	color: rgba(var(--black), 1);
-	margin: 15px;
+	margin: 10px 15px 15px;
 }
