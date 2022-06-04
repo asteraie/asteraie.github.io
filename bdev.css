@@ -113,6 +113,54 @@
 	height: 0;
 }
 
+.bdev-f {
+	width: 398px;
+	height: 448px;
+	background-color: rgba(var(--bgcolor), 1);
+	border-color: rgba(var(--black), 1);
+	border-style: solid;
+	border-width: 1px;
+}
+
+.bdev-g {
+	display: flex;
+	justify-content: space-between;
+	border-color: rgba(var(--black), 1);
+	border-style: solid;
+	border-width: 0 0 1px;
+	padding: 10px;
+	font-family: var(--button);
+	font-size: 10px;
+	font-weight: 600;
+	color: rgba(var(--accent1), 1);
+}
+
+.bdev-g > div {
+	display: flex;
+}
+
+.bdev-h {
+	height: 417px;
+	background-image: var(--altbg);
+	box-sizing: border-box;
+	border-color: rgba(var(--clear));
+	border-style: solid;
+	border-width: 10px;
+	overflow: auto;
+	text-align: justify;	
+}
+
+.bdev-h > div {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.bdev-h::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
 .ques {
 	font-family: var(--alt);
 	font-size: 10px;
