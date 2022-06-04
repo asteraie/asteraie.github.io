@@ -172,7 +172,7 @@
 	height: 0;
 }
 
-.head {
+.cat {
 	width: 378px;
 	background-image: linear-gradient(to top, rgba(var(--accent1),0.5) 50%, transparent 50% );
 	font-family: var(--fancy);
