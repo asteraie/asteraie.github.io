@@ -133,3 +133,14 @@
 	text-transform: lowercase;
 	color: rgba(var(--black), 1);
 }
+
+.blurb {
+	font-family: var(--main);
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: justify;
+	text-transform: lowercase;
+	color: rgba(var(--black), 1);
+}
