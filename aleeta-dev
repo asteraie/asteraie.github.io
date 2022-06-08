@@ -1,0 +1,172 @@
+.aleeta-dev {
+	width: 600px;
+	height: 565px;
+	background-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	border-color: rgba(0, 0, 0, 0); 
+	border-style: solid;
+	border-width: 50px 50px 35px;
+	margin: auto;
+
+	--accent1: #9c7c38;
+	--accent2: 156, 124, 56;
+	--image: url(https://i.postimg.cc/QC7FZp1G/dustedstars.jpg);
+}
+
+.chara-a {
+	width: 400px;
+	height: 150px;
+	margin: 0 0 15px;
+	position: relative;
+}
+
+.crown-a {
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	color: var(--accent1);
+	position: absolute;
+	top: -5px;
+	left: -5px;
+}
+
+.crown-a i {
+	text-shadow: 1px 1px #fff, -1px 1px #fff, -1px -1px #fff, 1px -1px #fff;
+}
+
+.image-a {
+	width: 150px;
+	height: 150px;
+	background: var(--image);
+clip-path: inset(5% 5% 5% 5% round 5% 20% 0 10%);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.blurb-a {
+	width: 335px;
+	height: 150px;
+	background-color: rgba(240, 240, 240, 0.6);
+	box-sizing: border-box;
+	border-color: rgba(0, 0, 0, 0);
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 10px;
+	overflow: auto;
+	font-family: mulish, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 14px;
+	text-align: justify;
+	text-transform: none;
+	color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 0;
+	left: 165px;
+}
+
+.chara-b {
+	width: 400px;
+	height: 150px;
+	margin: 0 0 15px;
+	position: relative;
+}
+
+.crown-b {
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	color: var(--accent1);
+	position: absolute;
+	top: -5px;
+	left: 465px;
+}
+
+.crown-b i {
+	text-shadow: 1px 1px #fff, -1px 1px #fff, -1px -1px #fff, 1px -1px #fff;
+}
+
+.image-b {
+	width: 150px;
+	height: 150px;
+	background: var(--image);
+	clip-path: inset(5% 5% 5% 5% round 0 10% 5% 20%);
+	position: absolute;
+	top: 0;
+	left: 350px;
+}
+
+.blurb-b {
+	width: 335px;
+	height: 150px;
+	background-color: rgba(240, 240, 240, 0.6);
+	box-sizing: border-box;
+	border-color: rgba(0, 0, 0, 0);
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 10px;
+	overflow: auto;
+	font-family: mulish, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 14px;
+	text-align: justify;
+	text-transform: none;
+	color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.blurb-a h1, .blurb-b h1 {
+	font-family: alagambe, cursive;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 1px 1px var(--accent1);
+	text-transform: lowercase;
+	color: rgba(0, 0, 0, 0.9);
+	margin: 0;
+}
+
+.blurb-a h2, .blurb-b h2 {
+	font-family: mulish, sans-serif;
+	font-size: 8px;
+	font-weight: 900;
+	letter-spacing: 0;
+	line-height: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.9);
+	margin: 0 0 15px;
+}
+
+.blurb-a span, .blurb-b span {
+	border-color: var(--accent1);
+	border-style: solid;
+	border-width: 0 0 2px;
+	padding: 0 5px 3px;
+	margin: 0 5px 0 0;
+}
+
+.blurb-a b, .blurb-b b {
+	background-image: linear-gradient(to top, rgba(var(--accent2),0.5) 50%, transparent 50% );
+}
+
+.blurb-a::-webkit-scrollbar, ..blurb-b::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.blurb-a p, .blurb-b p {
+	margin: 5px 0 10px;
+}
+
+.blurb-a p:last-child, .blurb-b p:last-child {
+	margin: 5px 0 0;
+}
