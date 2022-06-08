@@ -1,11 +1,7 @@
 .aleeta-dev {
-	width: 600px;
-	height: 565px;
+	width: 500px;
 	background-color: rgba(0, 0, 0, 0);
-	box-sizing: border-box;
-	border-color: rgba(0, 0, 0, 0); 
-	border-style: solid;
-	border-width: 50px 50px 35px;
+	padding: 50px;
 	margin: auto;
 
 	--accent1: #9c7c38;
