@@ -3,6 +3,7 @@
 	--background: url(https://i.postimg.cc/MpGzgjzw/wood-texture.jpg);
 	--accent1: #9c7c38;
 	--accent2: #c3b087;
+	--accent3: #f3ecde;
 	--black: 0, 0, 0;
 	--white: 255, 255, 255;
 	--gray: 204, 204, 204;
@@ -41,7 +42,7 @@
 
 .sdg-c {
 	background-clip: padding-box;
-	background-color: var(--accent1);
+	background-color: var(--accent3);
 	border-color: rgba(var(--black), 1);
 	border-style: solid;
 	border-width: 20px;
@@ -182,7 +183,7 @@
 
 .sdc-c {
 	background-clip: padding-box;
-	background-color: var(--accent1);
+	background-color: var(--accent3);
 	border-color: rgba(var(--black), 1);
 	border-style: solid;
 	border-width: 20px;
@@ -370,7 +371,7 @@
 
 .sdm-c {
 	background-clip: padding-box;
-	background-color: #9c7c38;
+	background-color: var(--accent3);
 	border-color: rgba(var(--black), 1);
 	border-style: solid;
 	border-width: 20px;
@@ -889,7 +890,7 @@
 
 .sda-c {
 	background-clip: padding-box;
-	background-color: #9c7c38;
+	background-color: var(--accent3);
 	border-color: rgba(var(--black), 1);
 	border-style: solid;
 	border-width: 20px;
