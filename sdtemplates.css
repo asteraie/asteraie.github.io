@@ -62,7 +62,7 @@
 
 .sdg-d title { 
 	display: block;
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 35px;
 	line-height: 40px;
 	text-align: center;
@@ -125,7 +125,7 @@
 
 .sdg-e h1 {
 	background-image: linear-gradient(to top, transparent 50%, rgba(var(--gray), 0.5) 50% );
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 20px;
@@ -203,7 +203,7 @@
 
 .sdc-d title { 
 	display: block;
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 35px;
 	line-height: 40px;
 	text-align: center;
@@ -272,7 +272,7 @@
 
 .sdc-f h1 {
 	background-image: linear-gradient(to top, transparent 50%, rgba(var(--gray), 0.5) 50% );
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 30px;
@@ -391,7 +391,7 @@
 
 .sdm-d title { 
 	display: block;
-	font-family: alagambe, cursive;
+	font-family: ruoke, cursive;
 	font-size: 35px;
 	line-height: 40px;
 	text-align: center;
@@ -661,7 +661,7 @@
 
 .sdl-d title { 
 	display: block;
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 35px;
 	line-height: 40px;
 	text-align: center;
@@ -730,7 +730,7 @@
 
 .sdl-f h1 {
 	background-image: linear-gradient(to top, transparent 50%, rgba(var(--gray), 0.5) 50% );
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 30px;
@@ -964,7 +964,7 @@
 
 .sda-h {
 	width: 100%;
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 40px;
 	font-weight: 400;
 	letter-spacing: 0;
@@ -1026,7 +1026,7 @@
 
 .sda-j h1 {
 	background-image: linear-gradient(to top, rgba(var(--gray), 0.5) 50%, transparent 50% );
-	font-family: alagambe, cursive;
+	font-family: ruok, cursive;
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 30px;
