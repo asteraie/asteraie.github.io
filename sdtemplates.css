@@ -964,6 +964,7 @@
 
 .sda-h {
 	width: 100%;
+	overflow: hidden;
 	font-family: ruok, cursive;
 	font-size: 40px;
 	font-weight: 400;
