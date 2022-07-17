@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
 
 .nc {
 	width: 400px;
@@ -36,7 +36,7 @@
 	border-style: dotted;
 	border-width: 0 0 1px;
 	padding: 0 0 9px;
-	font-family: nunito sans, sans-serif;
+	font-family: mulish, sans-serif;
 	font-size: 9px;
 	font-weight: 900;
 	letter-spacing: 0;
@@ -66,7 +66,7 @@
 	padding: 0 5px 10px 0;
 	height: 150px;
 	overflow: auto;
-	font-family: nunito sans, sans-serif;
+	font-family: mulish, sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 0;
