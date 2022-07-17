@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 .nc {
 	width: 400px;
 	border-color: rgba(var(--col3), 1);
@@ -16,7 +18,7 @@
 
 .nc name {
 	display: block;
-	font-family: times, serif;
+	font-family: crimson text, serif;
 	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: 0;
@@ -45,7 +47,7 @@
 }
 
 .nc h1 {
-	font-family: times, serif;
+	font-family: crimson text, serif;
 	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 0;
@@ -72,7 +74,7 @@
 	margin: 10px 0 0;
 }
 .nc b {
-	font-family: times, serif;
+	font-family: crimson text, serif;
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 0;
@@ -83,7 +85,7 @@
 }
 
 .nc i {
-	font-family: times, serif;
+	font-family: crimson text, serif;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0;
@@ -92,7 +94,7 @@
 }
 
 .nc strong {
-	font-family: times, serif;
+	font-family: crimson text, serif;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0;
