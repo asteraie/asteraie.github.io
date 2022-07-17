@@ -49,10 +49,10 @@
 
 .nc h1 {
 	font-family: crimson text, serif;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 700;
 	letter-spacing: 0;
-	line-height: 20px;
+	line-height: 30px;
 	text-align: center;
 	color: #c0c0c0;
 	text-shadow: 1px 3px rgba(var(--col3), 1);
