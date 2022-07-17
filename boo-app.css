@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap');
 
 .nc {
 	width: 400px;
@@ -35,7 +36,7 @@
 	border-style: dotted;
 	border-width: 0 0 1px;
 	padding: 0 0 9px;
-	font-family: arial, sans-serif;
+	font-family: nunito sans, sans-serif;
 	font-size: 9px;
 	font-weight: 900;
 	letter-spacing: 0;
@@ -65,11 +66,11 @@
 	padding: 0 5px 10px 0;
 	height: 150px;
 	overflow: auto;
-	font-family: calibri, sans-serif;
-	font-size: 14px;
+	font-family: nunito sans, sans-serif;
+	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 0;
-	line-height: 18px;
+	line-height: 16px;
 	text-align: justify;
 	margin: 10px 0 0;
 }
@@ -78,7 +79,7 @@
 	font-size: 14px;
 	font-weight: 700;
 	letter-spacing: 0;
-	line-height: 18px;
+	line-height: 16px;
 	text-transform: uppercase;
 	color: rgba(var(--col3), 1);
 	margin: 0 5px 0 0;
@@ -89,7 +90,7 @@
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0;
-	line-height: 18px;
+	line-height: 16px;
 	color: rgba(var(--col3), 1);
 }
 
@@ -98,7 +99,7 @@
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 0;
-	line-height: 18px;
+	line-height: 16px;
 	color: rgba(var(--col3), 0.7);
 }
 
