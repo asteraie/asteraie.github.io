@@ -1,3 +1,10 @@
+@font-face{ 
+	font-family:"alagambe"; 
+	src: url('https://asteraie.github.io/alagambe.otf') format('opentype'); 
+	font-weight: normal;    
+	font-style: normal; 
+}
+
 .aleeta-dev {
 	width: 500px;
 	background-color: rgba(0, 0, 0, 0);
