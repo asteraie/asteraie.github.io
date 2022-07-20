@@ -8,8 +8,9 @@
 .aleeta-dev {
 	width: 400px;
 	background-color: rgba(0, 0, 0, 0);
-	padding: 35px 0;
+	padding: 0;
 	align-content: center;
+	margin: 15px 0;
 
 	--accent1: #9c7c38;
 	--accent2: 156, 124, 56;
