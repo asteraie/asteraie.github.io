@@ -9,7 +9,7 @@
 	width: 400px;
 	background-color: rgba(0, 0, 0, 0);
 	padding: 35px 0;
-	margin: auto;
+	align-content: center;
 
 	--accent1: #9c7c38;
 	--accent2: 156, 124, 56;
