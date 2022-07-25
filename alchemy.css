@@ -425,13 +425,13 @@
 	letter-spacing: 0;
 	line-height: 8px;
 	text-transform: uppercase;
-	transition: all ease 0.8s;
 	margin: 0 -1px 0 0;
 }
             
 .alch-tags span a {
 	box-shadow: none;
 	color: rgba(var(--dark), 0.5);
+	transition: all ease 0.8s;
 }
                 
 .alch-tags span a:hover {
