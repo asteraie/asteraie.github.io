@@ -425,6 +425,7 @@
 	letter-spacing: 0;
 	line-height: 8px;
 	text-transform: uppercase;
+	transition: all ease 0.8s;
 	margin: 0 -1px 0 0;
 }
             
