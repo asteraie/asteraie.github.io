@@ -335,7 +335,7 @@
 	font-family: var(--cursive);
 	font-size: 14px;
 	font-weight: 700;
-	letter-spacing: -1px;
+	letter-spacing: 0;
 	line-height: 16px;
 	text-transform: lowercase;
 }
