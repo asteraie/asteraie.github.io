@@ -1,0 +1,75 @@
+#ria {
+	--clr1: 138, 80, 130;
+	--clr2: 111, 95, 144;
+	--clr3: 117, 142, 183;
+	--gradient1: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.5) 0%, 
+		rgba(var(--clr2), 0.5) 50%, 
+		rgba(var(--clr3), 0.5) 100%);
+	--gradient2: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.82) 0%, 
+		rgba(var(--clr2), 0.82) 50%, 
+		rgba(var(--clr3), 0.82) 100%);
+	--borderg: linear-gradient(45deg, #8a5082, #6f5f90, #758eb7) 30;
+	--image1: url(https://i.postimg.cc/6q9gpxqq/gif-asteria.gif);
+	--image2: url(https://i.postimg.cc/hvpwJZQr/gif-asteria.gif);
+	--image3: url(https://i.postimg.cc/y6P2rxpZ/gif-asteria.gif);
+	--image4: url(https://i.postimg.cc/FzGwTggR/image4-asteria.png);
+}
+
+#genny {
+	--clr1: 255, 123, 137;
+	--clr2: 117, 142, 183;
+	--clr3: 56, 78, 120;
+	--gradient1: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.5) 0%, 
+		rgba(var(--clr2), 0.5) 50%, 
+		rgba(var(--clr3), 0.5) 100%);
+	--gradient2: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.82) 0%, 
+		rgba(var(--clr2), 0.82) 50%, 
+		rgba(var(--clr3), 0.82) 100%);
+	--borderg: linear-gradient(45deg, #ff7b89, #758eb7, #384e78) 30;
+	--image1: url(https://i.postimg.cc/y8ntBTwy/gif-imogene.gif);
+	--image2: url(https://i.postimg.cc/Jhnghk8V/gif-imogene.gif);
+	--image3: url(https://i.postimg.cc/wBGrRjxt/gif-imogene.gif);
+	--image4: url(https://i.postimg.cc/k4Yp8Xn6/image4-imogene.png);
+}
+
+#minty {
+	--clr1: 199, 56, 102;
+	--clr2: 254, 103, 110;
+	--clr3: 253, 143, 82;
+	--gradient1: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.5) 0%, 
+		rgba(var(--clr2), 0.5) 50%, 
+		rgba(var(--clr3), 0.5) 100%);
+	--gradient2: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.82) 0%, 
+		rgba(var(--clr2), 0.82) 50%, 
+		rgba(var(--clr3), 0.82) 100%);
+	--borderg: linear-gradient(45deg, #c73866, #fe676e, #fd8f52) 30;
+	--image1: url(https://i.postimg.cc/y8ntBTwy/gif-imogene.gif);
+	--image2: url(https://i.postimg.cc/Jhnghk8V/gif-imogene.gif);
+	--image3: url(https://i.postimg.cc/wBGrRjxt/gif-imogene.gif);
+	--image4: url(https://i.postimg.cc/hPSVNJdV/image4-minthe.png);
+}
+
+#nemo {
+	--clr1: 91, 168, 160;
+	--clr2: 203, 229, 78;
+	--clr3: 148, 180, 71;
+	--gradient1: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.5) 0%, 
+		rgba(var(--clr2), 0.5) 50%, 
+		rgba(var(--clr3), 0.5) 100%);
+	--gradient2: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.82) 0%, 
+		rgba(var(--clr2), 0.82) 50%, 
+		rgba(var(--clr3), 0.82) 100%);
+	--borderg: linear-gradient(45deg, #5ba8a0, #cbe54e, #94b447) 30;
+	--image1: url(https://i.postimg.cc/y8ntBTwy/gif-imogene.gif);
+	--image2: url(https://i.postimg.cc/Jhnghk8V/gif-imogene.gif);
+	--image3: url(https://i.postimg.cc/wBGrRjxt/gif-imogene.gif);
+	--image4: url(https://i.postimg.cc/HL7MbXq1/image4-nemo.png);
+}
