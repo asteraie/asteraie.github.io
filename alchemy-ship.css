@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+.alch-tabs {
+	--dark: 40, 40, 40;
+	--darken: 10, 10, 10;
+	--light: 190, 190, 190;
+	--lighten: 240, 240, 240;
+	--clr1: 228, 223, 217;
+	--clr2: 228, 199, 183;
+	--clr3: 242, 164, 144;
+	--accent: rgba(40, 40, 40, 0.5);
+	--gradient1: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.5) 0%, 
+		rgba(var(--clr2), 0.5) 50%, 
+		rgba(var(--clr3), 0.5) 100%);
+	--gradient2: linear-gradient(45deg, 
+		rgba(var(--clr1), 0.82) 0%, 
+		rgba(var(--clr2), 0.82) 50%, 
+		rgba(var(--clr3), 0.82) 100%);
+	--borderg: linear-gradient(45deg, #e4dfd9, #e4c7b7, #f2a490) 30;
+
+	--image1: url(https://i.postimg.cc/ZqYV57Np/brie-gif1.gif);
+	--image2: url(https://i.postimg.cc/vmPXgr7j/brie-gif2.gif);
+	--image3: url(https://i.postimg.cc/ZRCHrWVq/brie-gif3.gif);
+	--image4: url(https://i.postimg.cc/GmNn0K0T/image4-admin.png);
+
+	--sans-serif: poppins, sans-serif;
+	--cursive: limelight, cursive;
+
+	width: 400px;
+	height: 450px;
+	background-color: rgba(var(--lighten), 0.7);
+	margin: 15px auto;
+	position: relative;
+}
+
+.alch-tab {
+	float: left;
+}
+
+.alch-tab label {
+	display: block;
+	width: 60px;
+	height: 20px;
+	background-color: rgba(var(--lighten), 0.7);
+	font-family: var(--sans-serif);
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: -1px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: lowercase;
+	color: rgba(var(--darken), 0.7);
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+
+.alch-tab [type=radio] {
+	display: none;
+}
+
+.alch-content {
+	width: 300px;
+	height: 450px;
+	filter: alpha(opacity=0); 
+	transform: scale(0); 
+	transition-duration: .8s;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+
+[type=radio]:checked ~ label {
+	background-color: rgba(var(--darken), 0.3);
+	color: rgba(var(--lighten), 0.7);
+	z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .alch-content { 
+	filter: alpha(opacity=100); 
+	transform: scale(1);
+	opacity: 1; 
+	z-index: 5; 
+}
+
+.alch-text {
+	width: 200px;
+	height: 250px;
+	background-color: rgba(var(--lighten), 0.7);
+	border-color: transparent;
+	border-style: solid;
+	border-width: 50px;
+	overflow: auto;
+	font-family: var(--sans-serif);
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0;
+	text-transform: lowercase;
+	text-align: justify;
+	color: rgba(var(--dark), 1);
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.alch-text h1 {
+	border-image: var(--borderg); 
+	border-style: solid;
+	border-width: 0 0 5px;
+	padding: 0 20px 5px; 
+	font-family: var(--sans-serif);
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 22px;
+	text-align: right;
+	text-transform: lowercase;
+	margin: 0 0 10px;
+}
+
+.alch-text b {
+	background: var(--gradient2); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-size: 11px;
+	font-weight: 700; 
+}
+
+.alch-text::-webkit-scrollbar { 
+	width: 0;
+	height: 0; 
+}
+
+.alch-image {
+	width: 100px;
+	height: 100px;
+	background-image: var(--image4);
+	background-position: 50% 50%;
+	background-size: cover;
+	position: absolute;
+	top: 350px;
+	left: -100px;
+}
+
+.alch-info {
+	width: 250px;
+	height: 50px;
+	background-color: rgba(var(--lighten), 0.5);
+	border-color: transparent;
+	border-style: solid;
+	border-width: 25px;
+	position: absolute;
+	top: 350px;
+	left: 0;
+}
+
+.alch-chara {
+	background-color: transparent;
+	font-family: var(--sans-serif);
+	font-size: 8px;
+	font-weight: 900;
+	letter-spacing: 0;
+	line-height: 8px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(var(--darken), 0.7);
+}
+
+.alch-chara span {
+	display: block;
+	background: var(--gradient2); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-family: var(--sans-serif);
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 40px;
+	text-transform: lowercase;
+}
