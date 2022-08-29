@@ -7,9 +7,9 @@
 	--darken: 10, 10, 10;
 	--light: 190, 190, 190;
 	--lighten: 240, 240, 240;
-	--clr1: 228, 223, 217;
-	--clr2: 228, 199, 183;
-	--clr3: 242, 164, 144;
+	--clr1: 216, 151, 54;
+	--clr2: 203, 107, 59;
+	--clr3: 206, 96, 75;
 	--accent: rgba(40, 40, 40, 0.5);
 	--gradient1: linear-gradient(45deg, 
 		rgba(var(--clr1), 0.5) 0%, 
@@ -19,7 +19,7 @@
 		rgba(var(--clr1), 0.82) 0%, 
 		rgba(var(--clr2), 0.82) 50%, 
 		rgba(var(--clr3), 0.82) 100%);
-	--borderg: linear-gradient(45deg, #e4dfd9, #e4c7b7, #f2a490) 30;
+	--borderg: linear-gradient(45deg, #d89736, #cb6b3b, #ce604b) 30;
 
 	--image1: url(https://i.postimg.cc/ZqYV57Np/brie-gif1.gif);
 	--image2: url(https://i.postimg.cc/vmPXgr7j/brie-gif2.gif);
