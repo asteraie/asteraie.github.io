@@ -68,8 +68,8 @@
 		rgba(var(--clr2), 0.82) 50%, 
 		rgba(var(--clr3), 0.82) 100%);
 	--borderg: linear-gradient(45deg, #5ba8a0, #cbe54e, #94b447) 30;
-	--image1: url(https://i.postimg.cc/y8ntBTwy/gif-imogene.gif);
-	--image2: url(https://i.postimg.cc/Jhnghk8V/gif-imogene.gif);
-	--image3: url(https://i.postimg.cc/wBGrRjxt/gif-imogene.gif);
+	--image1: url(https://i.postimg.cc/D0BjwXtB/gif-nemo.gif);
+	--image2: url(https://i.postimg.cc/MZDrDCvV/gif-nemo.gif);
+	--image3: url(https://i.postimg.cc/pXLc1sF7/gif-nemo.gif);
 	--image4: url(https://i.postimg.cc/HL7MbXq1/image4-nemo.png);
 }
